@@ -1,0 +1,22 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1     #服务器地址
+    port: 5672          #服务器端口
+    username: guest     #用户名
+    password: guest     #密码
+    publisher-confirms: true   #消息发送到交换机确认机制,是否确认回调
+
+#basic:
+#    mqinfo:
+#      exchange:
+#        name1: exchange1
+#        name2: exchange2
+#      rountingkey:
+#        name1: key1
+#        name2: key2
+#      queue:
+#        name1: queue1
+#        name2: queue2
+server:
+  port: 8090
+
